@@ -21,6 +21,7 @@ services:
       - /dev/dri
     security_opt:
       - seccomp=unconfined
+      - label=disable
     group_add:
       - video
       - audio
